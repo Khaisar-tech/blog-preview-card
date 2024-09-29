@@ -1,0 +1,75 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: hsl(0, 0%, 42%); */
+  }
+  body,html{
+    background-color: white;
+
+  }
+
+  .container {
+    width: 1500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    /* border: 2px solid black; */
+    background-color: hsl(47, 88%, 63%);  
+    align-items: center;
+  }
+
+  .svg-container {
+    width: 300px;
+    height: 300px;
+    font-family: Figtree;
+    font-weight: 500; 
+    
+  }
+
+  .card {
+    border: 2px solid black;
+    background-color: white;
+    height: 480px;
+    width: 336px;
+    display:flex;
+    box-shadow: 10px 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 30px;
+  }
+
+  .svg-container svg {
+    border-radius: 20px;
+  }
+
+  .svg-container button {
+    margin-top: 20px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-family: Figtree;
+    font-weight: 800;
+   
+  }
+  .svg-container img {
+width: 50px; /* Set image size */
+height: auto;
+margin-right: 10px; /* Add space between image and text */
+}
+
+.image-text-container {
+display: flex;
+align-items: center; /* Vertically align text with the image */
+}
+
+.image-text-container h5 {
+margin: 0; /* Remove default margin from h5 */
+}
+footer{
+    color: rgb(20, 11, 11);
+    padding:30px;
+    background-color: chartreuse;
+}
